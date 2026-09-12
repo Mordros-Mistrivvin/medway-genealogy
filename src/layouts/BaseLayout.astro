@@ -1,0 +1,30 @@
+---
+import '../styles/global.css';
+const { title = 'Medway Genealogy Research', description = 'Research into the Medway, Meadway and associated Dorset families.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="brand">Medway Genealogy Research</div>
+        <nav aria-label="Primary">
+          <a href="/">Home</a>
+          <a href="/research/mary-galley/">Mary Galley</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      Evidence-led research into the Medway / Meadway line and associated Dorset families. Conclusions are graded and revised as primary sources emerge.
+    </footer>
+  </body>
+</html>
