@@ -1,0 +1,198 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
+---
+<BaseLayout title="Family tree | Medway Genealogy Research" description="An evidence-graded visual family tree for the established Medway line and the current Mary Galley and earlier Dorset research hypotheses.">
+  <section class="hero compact-hero">
+    <div class="eyebrow">Family tree · evidence graded</div>
+    <h1>Family tree</h1>
+    <p class="lead">A visual reference for the established nineteenth- and twentieth-century Medway line, followed by the current research trees. Solid relationships are documented; dashed and dotted connections remain under investigation.</p>
+  </section>
+
+  <div class="tree-legend" aria-label="Evidence legend">
+    <span><i class="legend-line proved-line"></i><strong>Documented</strong></span>
+    <span><i class="legend-line probable-line"></i><strong>Probable / strong candidate</strong></span>
+    <span><i class="legend-line possible-line"></i><strong>Possible / open hypothesis</strong></span>
+  </div>
+
+  <section aria-labelledby="direct-heading">
+    <h2 id="direct-heading">Direct line to Rev. Daron Medway</h2>
+    <p>This first diagram is intended as the quick-reference pedigree. Modern dates are deliberately withheld on the public site; the historical links shown here are the established working line of descent.</p>
+
+    <div class="direct-tree" role="list" aria-label="Direct Medway line">
+      <article class="person-node documented" role="listitem">
+        <span class="node-era">18th century</span>
+        <h3>Matthew Medway <span class="couple">× Mary Galley</span></h3>
+        <p>Married Poole St James, 13 Aug 1786. Matthew’s origins and Mary’s parentage remain separate open questions.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node documented" role="listitem">
+        <span class="node-era">1800</span>
+        <h3>James Medway <span class="couple">× Harriet Musselwhite</span></h3>
+        <p>Baptised Poole St James, 19 Aug 1800, son of Matthew and Mary. Married Harriet at Lytchett Minster, 26 Sep 1824.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node documented" role="listitem">
+        <span class="node-era">c.1825–1864</span>
+        <h3>John Medway <span class="couple">× Ann Isabella Stokes</span></h3>
+        <p>Born about 1825 at Hamworthy. Married Ann Isabella Stokes at Hamworthy, 7 Sep 1847; his father was identified as James Medway, shipwright.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node documented" role="listitem">
+        <span class="node-era">1854</span>
+        <h3>John Medway</h3>
+        <p>Baptised Hamworthy, 22 May 1854, son of John and Ann; father described as a shipwright.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node documented modern" role="listitem">
+        <span class="node-era">19th–20th century</span>
+        <h3>Alfred John Medway</h3>
+        <p>Established in the project’s modern direct line. Detailed civil certificates will be added to the source catalogue as the public evidence pages expand.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node documented modern" role="listitem">
+        <span class="node-era">20th century</span>
+        <h3>Alfred Jack Medway <span class="couple">× Lillian May Sturney</span></h3>
+        <p>Established grandparents’ generation in the project tree; modern identifying dates are withheld here.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node documented modern" role="listitem">
+        <span class="node-era">20th century</span>
+        <h3>Christopher Jack Medway</h3>
+        <p>Established father in the direct line. Dates and other identifying civil details are withheld on the public site.</p>
+      </article>
+      <div class="tree-connector solid" aria-hidden="true"></div>
+      <article class="person-node reference-person" role="listitem">
+        <span class="node-era">Reference person</span>
+        <h3>Rev. Daron Medway</h3>
+        <p>The present-day reference point for the research project.</p>
+      </article>
+    </div>
+
+    <p class="small tree-note">For the documentary narrative behind the historical generations, see <a href={`${base}research/direct-line/`}>The direct line</a>.</p>
+  </section>
+
+  <hr />
+
+  <section aria-labelledby="galley-heading">
+    <h2 id="galley-heading">Matthew Medway and Mary Galley research tree</h2>
+    <p>This diagram deliberately separates facts from identification hypotheses. The 1760 Lytchett Minster Mary is the clear leading candidate for Matthew’s wife, but the final identity bridge has not yet been found.</p>
+
+    <div class="research-tree">
+      <div class="generation-row single">
+        <article class="person-node probable">
+          <span class="status strong">Probable earlier family</span>
+          <h3>William Gally <span class="couple">× probably Rachel Smith</span></h3>
+          <p>William Gally and Rachel Smith, both of Lytchett Minster, married at Corfe Mullen in 1717. Their identification as the parents of the 1726 William remains a working reconstruction.</p>
+        </article>
+      </div>
+      <div class="branch-connector possible" aria-hidden="true"></div>
+      <div class="generation-row single">
+        <article class="person-node probable">
+          <span class="status strong">Very strong identification</span>
+          <h3>William Gally</h3>
+          <p>Baptised Lytchett Minster, 27 Sep 1726, son of William. Strong candidate for <strong>William Gally junior, aged 21, mariner</strong>, named in the 1749 lease D-DAS/4434A–B.</p>
+        </article>
+      </div>
+      <div class="branch-connector probable" aria-hidden="true"></div>
+      <div class="generation-row single">
+        <article class="person-node probable">
+          <span class="status strong">Strong identity hypothesis</span>
+          <h3>William Gally <span class="couple">× Mary Philips</span></h3>
+          <p>Married at Lytchett Minster, 18 Sep 1753. The marriage is proved; identity with the 1726 child / 1749 mariner is strongly suggested but not yet directly bridged.</p>
+        </article>
+      </div>
+      <div class="branch-connector probable split" aria-hidden="true"></div>
+      <div class="generation-row two">
+        <article class="person-node probable">
+          <span class="status strong">Strong identity hypothesis</span>
+          <h3>John Galley</h3>
+          <p><strong>13 Apr 1755:</strong> baptised at Lytchett Minster, son of William.</p>
+          <p class="identity-arrow">≈</p>
+          <p><strong>John Galley of Hamworthy</strong>, who married Sarah Hill in 1797 and was recorded as a sawyer in the 1798 Hamworthy militia list alongside Matthew Medway.</p>
+        </article>
+        <article class="person-node probable emphasis-node">
+          <span class="status strong">Leading Mary candidate</span>
+          <h3>Mary Galley</h3>
+          <p><strong>20 Apr 1760:</strong> baptised at Lytchett Minster, daughter of William.</p>
+          <p class="identity-arrow">≈</p>
+          <p><strong>Mary Galley</strong>, spinster of Poole parish, who married Matthew Medway on 13 Aug 1786.</p>
+        </article>
+      </div>
+      <div class="branch-connector probable" aria-hidden="true"></div>
+      <div class="generation-row two">
+        <article class="person-node probable">
+          <span class="status strong">Very strong Sarah candidate</span>
+          <h3>John Galley <span class="couple">× Sarah Hill</span></h3>
+          <p>Both described as of Hamworthy at their Lytchett Minster marriage on 23 Dec 1797. Sarah baptised at Poole in 1772, daughter of George and Elizabeth Hill, is the leading candidate for the bride.</p>
+        </article>
+        <article class="person-node documented">
+          <span class="status proved">Documented marriage</span>
+          <h3>Matthew Medway <span class="couple">× Mary Galley</span></h3>
+          <p>Married Poole St James, 13 Aug 1786. The marriage is secure even though Mary’s baptismal identity remains under investigation.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Important contrary evidence:</strong> Mary Medway’s Hamworthy burial on 22 Jul 1842 gives her age as 88, implying birth about 1753–54. That is roughly six years earlier than the 1760 Lytchett baptism and remains the principal unresolved objection to the identification.
+    </div>
+
+    <h3>The 1749 lease network</h3>
+    <div class="grid">
+      <article class="card">
+        <span class="status proved">D-DAS/4434A–B</span>
+        <h3>William Gally junior</h3>
+        <p>8 Feb 1749: aged 21, of Lytchett Minster, <strong>mariner</strong>, taking a lease of a cottage, garden and ground.</p>
+      </article>
+      <article class="card">
+        <span class="status proved">Named relation</span>
+        <h3>William Gally of Hamworthy</h3>
+        <p>The lease catalogue explicitly calls him a <strong>“relation”</strong> of William junior. The precise relationship is not yet known.</p>
+      </article>
+      <article class="card">
+        <span class="status proved">Named life / network</span>
+        <h3>Rachael Minion</h3>
+        <p>Daughter of Nicholas Minion of Hamworthy, aged 4. Nicholas had married Sarah Gally of Lytchett Minster in 1744, strengthening the pre-1760 Lytchett–Hamworthy network.</p>
+      </article>
+    </div>
+    <p><a href={`${base}research/mary-galley/`}>Read the full Mary Galley evidence assessment →</a></p>
+  </section>
+
+  <hr />
+
+  <section aria-labelledby="earlier-heading">
+    <h2 id="earlier-heading">Earlier Medway / Meadway hypotheses</h2>
+    <p>The direct pedigree stops at Matthew until his parentage is proved. The following is therefore a research ladder, not a published pedigree.</p>
+    <div class="hypothesis-ladder">
+      <article class="person-node documented">
+        <span class="status proved">Known adult</span>
+        <h3>Matthew Medway of Hamworthy</h3>
+        <p>Married Mary Galley in 1786; documented at Hamworthy and Poole.</p>
+      </article>
+      <div class="tree-connector dotted" aria-hidden="true"></div>
+      <article class="person-node possible-node">
+        <span class="status open">Strong origin candidate</span>
+        <h3>Matthew Medway, baptised West Lulworth 8 Nov 1758</h3>
+        <p>Son of John and Elizabeth. No recovered record yet proves that this child became the adult Matthew of Hamworthy.</p>
+      </article>
+      <div class="tree-connector dotted" aria-hidden="true"></div>
+      <article class="person-node possible-node">
+        <span class="status open">Identity under test</span>
+        <h3>John Medway <span class="couple">× Elizabeth</span></h3>
+        <p>Possible connection to John Medway and Elizabeth Meaden, married at Pimperne in 1734. The identity of Matthew’s parents with that couple is not yet proved.</p>
+      </article>
+      <div class="tree-connector dotted" aria-hidden="true"></div>
+      <article class="person-node possible-node">
+        <span class="status open">Earlier candidate</span>
+        <h3>John Meadway, baptised Church Knowle 24 Jul 1734</h3>
+        <p>Son of John and Elizabeth. How this child relates to the later West Lulworth household remains part of the Purbeck identity problem.</p>
+      </article>
+    </div>
+    <p><a href={`${base}research/early-line/`}>Explore the earlier Dorset evidence and competing identities →</a></p>
+  </section>
+
+  <div class="callout evidence-warning">
+    <strong>Reading the tree:</strong> names appearing in the same diagram do not automatically establish kinship. The site promotes a connection to the documented tree only when the evidence supports identity between records, not merely a matching name and plausible date.
+  </div>
+</BaseLayout>
