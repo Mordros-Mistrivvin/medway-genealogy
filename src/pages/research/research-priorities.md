@@ -44,9 +44,28 @@ The occupational word “victualler” does not prove naval supply. If the hypot
 - Royal Museums Greenwich **ADM/C/641–644** — 1781 Admiralty correspondence; ask whether **ADM/G** provides an index/finding route.
 - Separate collateral household: **ADM 73/294/54** and **ADM 73/294/34**, John Allen Medway/Meadway, 1796. These records currently have **no established relationship to Matthew**.
 
+## Southampton and maritime follow-up
+
+The later line has its own unresolved source tasks and should not be blurred with the eighteenth-century Mary Galley of 1786:
+
+1. Recover the three-page **“Medway merchant seamen”** set referred to in the August research, identify the record series and date of each page, and then correlate ages, addresses, fathers, occupations and signatures.
+2. Follow the local-history index entries for a **John Medway described as shipwright in 1832**, later Lower Ham/Lagland Street references and the 1875 master-mariner entry to their underlying newspapers, voting records, school records or municipal sources.
+3. Re-check the marriage evidence around the later William Medway / Mary Galley and Mary Ann Sargeant household. The **1847 Mary Galley is a different research problem from the 1786 bride** and must not be merged by name alone.
+
+## Irish connection
+
+The original 1921 civil birth entry establishes **Margaret Susan O'Neill**, daughter of John O'Neill and Mary formerly Hagan, in County Kilkenny. It does not yet prove the proposed later-generation link.
+
+1. Obtain and assess the later-generation birth certificate already identified in the project; keep potentially living-person details private on the public site.
+2. Search the 1926 census using Margaret/Susan, both parents, O'Neill/ONeill/Neill variants, and place browsing rather than relying on a single name query.
+3. Trace John O'Neill and Mary Hagan's marriage and the Bally-Gowan/Ballygown household to establish siblings and locality continuity.
+4. Treat the earlier failed 1926 search as **non-excluding**, because the National Archives documents transcription omissions and mislinked townlands, including issues affecting Kilkenny.
+
 ## Other catalogue leads retained from earlier work
 
 The earlier research strategy identified **D/WLC M74** (1640 survey), **D/WLC M98** (1687 court material), **D/WLC M91** (1721 rental), other Lulworth court sequences, **PE/WLU/OV/2/1**, Poole apprenticeship material, and **D-FLO/2890**. They remain leads, not records claimed as inspected. Their present catalogue descriptions and ordering conditions should be verified before a visit or copy request.
+
+The clergyman's ordination trail should also include inspection of the Bristol subscription material underlying CCEd, particularly **EP/A/10/1/2**, while keeping ordination chronology separate from proof of parentage.
 
 ## New collateral lead: Cattistock Richard Meadway
 
