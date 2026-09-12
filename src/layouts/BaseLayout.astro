@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 const { title = 'Medway Genealogy Research', description = 'Research into the Medway, Meadway and associated Dorset families.' } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const base = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
 ---
 <!doctype html>
 <html lang="en">
