@@ -14,10 +14,15 @@ const base = import.meta.env.BASE_URL;
   <body>
     <header>
       <div class="nav">
-        <div class="brand">Medway Genealogy Research</div>
+        <a class="brand" href={base}>Medway Genealogy Research</a>
         <nav aria-label="Primary">
-          <a href={base}>Home</a>
+          <a href={`${base}research/latest-findings/`}>Latest</a>
+          <a href={`${base}research/project-review/`}>Review</a>
+          <a href={`${base}research/direct-line/`}>Direct line</a>
           <a href={`${base}research/mary-galley/`}>Mary Galley</a>
+          <a href={`${base}research/early-line/`}>Earlier line</a>
+          <a href={`${base}research/evidence-inventory/`}>Evidence</a>
+          <a href={`${base}research/research-priorities/`}>Next research</a>
         </nav>
       </div>
     </header>
@@ -25,7 +30,7 @@ const base = import.meta.env.BASE_URL;
       <slot />
     </main>
     <footer>
-      Evidence-led research into the Medway / Meadway line and associated Dorset families. Conclusions are graded and revised as primary sources emerge.
+      <strong>Medway Genealogy Research.</strong> Evidence-led reconstruction of the Medway / Meadway families of Dorset and Southampton. Proved facts, candidate identities and open hypotheses are kept distinct; conclusions change when better primary evidence appears.
     </footer>
   </body>
 </html>
