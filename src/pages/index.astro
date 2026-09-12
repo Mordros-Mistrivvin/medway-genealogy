@@ -7,7 +7,7 @@ const base = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
     <div class="eyebrow">Dorset · family history · working archive</div>
     <h1>The Medway / Meadway research desk</h1>
     <p class="lead">A public working archive for tracing the family from Southampton and Hamworthy back through Poole, Lytchett Minster, Purbeck and the earlier Dorset surname network. The site records what the sources actually say, what is strongly suggested, what has been excluded, and which records could change the story next.</p>
-    <p class="hero-links"><a class="button" href={`${base}research/latest-findings/`}>Latest findings</a><a class="button secondary" href={`${base}research/project-review/`}>Read the evidence review</a></p>
+    <p class="hero-links"><a class="button" href={`${base}family-tree/`}>View the family tree</a><a class="button secondary" href={`${base}research/latest-findings/`}>Latest findings</a><a class="button secondary" href={`${base}research/project-review/`}>Read the evidence review</a></p>
   </section>
 
   <div class="callout">
@@ -38,6 +38,7 @@ const base = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
 
   <h2>Research library</h2>
   <div class="grid">
+    <article class="card"><h3>Family tree</h3><p>An evidence-graded visual tree including the established nineteenth- and twentieth-century ancestors, the Mary Galley research branch and the earlier Medway hypotheses.</p><p><a href={`${base}family-tree/`}>Open family tree →</a></p></article>
     <article class="card"><h3>Comprehensive review</h3><p>The consolidated chronology, corrections, exclusions, competing identities and open links from the project audit.</p><p><a href={`${base}research/project-review/`}>Open review →</a></p></article>
     <article class="card"><h3>Latest findings</h3><p>The 10–12 September additions: Cattistock land tax, naval-victualling research, Mary Cole probate and the 1749 Gally lease.</p><p><a href={`${base}research/latest-findings/`}>Open latest findings →</a></p></article>
     <article class="card"><h3>Evidence inventory</h3><p>A source-audit register for the primary images and key derivative records, including what each can and cannot establish.</p><p><a href={`${base}research/evidence-inventory/`}>Browse evidence →</a></p></article>
