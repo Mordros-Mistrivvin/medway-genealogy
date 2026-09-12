@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const base = import.meta.env.BASE_URL;
+const base = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
 ---
 <BaseLayout title="Medway Genealogy Research" description="Evidence-led research into the Medway / Meadway family of Dorset and Southampton, with primary sources, hypotheses and archive priorities.">
   <section class="hero">
@@ -25,7 +25,7 @@ const base = import.meta.env.BASE_URL;
     <article class="card">
       <span class="status strong">Strong leading candidate</span>
       <h3>Mary Galley of Lytchett Minster</h3>
-      <p>Mary, daughter of William Galley, baptised in 1760 is now the strongest candidate for Matthew's wife. A 1749 lease documents a Gally network between Lytchett and Hamworthy; the Langton Matravers candidate is now excluded by probate evidence.</p>
+      <p>Mary, daughter of William Galley, baptised in 1760 is now the strongest candidate for Matthew's wife. The case is strengthened by a Galley network already spanning Lytchett and Hamworthy before her birth.</p>
       <p><a href={`${base}research/mary-galley/`}>Review the Mary Galley case →</a></p>
     </article>
     <article class="card">
@@ -47,7 +47,7 @@ const base = import.meta.env.BASE_URL;
   </div>
 
   <h2>Evidence standard</h2>
-  <p>The major project audit recovered 429 distinct image files after exact-byte deduplication, with targeted close examination recorded for the most consequential material. Original registers, probate papers, court documents and leases are separated from catalogue descriptions, transcriptions and indexes. Corrections remain visible instead of being silently overwritten.</p>
+  <p>The major project audit recovered 429 distinct image files after exact-byte deduplication, with targeted close examination recorded for the most consequential material. Original registers, wills, militia lists, court papers, leases and probate documents take priority over derivative indexes or user-created family-tree links.</p>
   <p><a href={`${base}research/method/`}>Read the evidence method and coverage statement →</a></p>
 
   <h2>What is not yet a proved pedigree</h2>
